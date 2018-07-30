@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+}
+
+header{
+  background: rgb(51, 102, 102);
+  width: 100%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  border-bottom: solid 3px black;
+}
+
+body{
+  background-image: url("pencils_bw.jpg");
+  margin: 0;
+  color: white;
+}
+
+header > img{
+  margin: 2%;
+  height: 200px;
+}
+
+
+nav{
+position: relative;
+float: right;
+margin: 2%;
+bottom: 100px;
+font-family: 'Roboto', sans-serif;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  margin: 25px;
+}
+
+article{
+  background-color: rgba(255,255,255,0.9);
+  margin-left: 30%;
+  margin-bottom: 7%;
+  margin-top: 4%;
+  width: 50%;
+  height: 20%
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(51, 102, 102);
+  padding: 2%;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+
+article > p{
+  text-align: center;
+}
+
+footer{
+color: #336565;
+background-color: rgba(255,255,255,1);
+font-family: 'Roboto', sans-serif;
+text-align: center;
+padding: 4%;
+}
