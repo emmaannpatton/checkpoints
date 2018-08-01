@@ -1,68 +1,128 @@
-
-
-header{
-  background: rgb(51, 102, 102);
-  width: 100%;
-  height: 200px;
-  margin: 0;
-  padding: 0;
-  border-bottom: solid 3px black;
+.body{
+  background-image: url("floral.jpg");
+  background-color: rgb(212,210,195);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: cream;
 }
 
-body{
-  background-image: url("pencils_bw.jpg");
-  margin: 0;
-  color: white;
+.navbar{
+  background-color: #37917a;
+  min-width: 100%;
+  margin: 0 auto;
+  border-bottom: 3px solid black;
+/* kept trying to make the navbar fixed, it messed up whole page */
 }
 
 header > img{
-  margin: 2%;
-  height: 200px;
-}
-
-
-nav{
-position: relative;
-float: right;
-margin: 2%;
-bottom: 100px;
-font-family: 'Roboto', sans-serif;
-}
-
-a{
-  color: white;
-  text-decoration: none;
-  padding: 8px;
-  margin: 25px;
-}
-
-article{
-  background-color: rgba(255,255,255,0.9);
-  margin-left: 30%;
-  margin-bottom: 7%;
-  margin-top: 4%;
-  width: 50%;
-  height: 20%
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(51, 102, 102);
+  height: 150px;
   padding: 2%;
 }
 
-h1{
-  text-align: center;
+nav{
+  float:right;
+  margin-top: 10%;
+  margin-right: 10%;
+  word-spacing: 50px;
+}
+
+a{
+  color:white;
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  font-size: 25px;
 }
 
-article > p{
+h1{
+  font-size: 24pt;
+  padding-bottom: 4%;
+}
+
+.box1{
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  padding: 5%;
+  color: #37917a;
+  background-color: rgba(255,255,255,0.9);
+  font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
-footer{
-color: #336565;
-background-color: rgba(255,255,255,1);
-font-family: 'Roboto', sans-serif;
-text-align: center;
-padding: 4%;
+.box1 > a{
+  margin: 20%;
+  background-color: #37917a;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border: 3px solid black;
+}
+
+a:hover{
+  color: pink;
+}
+
+.test1{
+  margin: auto;
+  margin-top: 20px;
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  color: #37917a;
+  background-color: rgba(255,255,255,0.9);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.test2{
+  margin: auto;
+  margin-top: 20px;
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  color: #37917a;
+  background-color: rgba(255,255,255,0.9);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.test3{
+  margin: auto;
+  margin-top: 20px;
+  width: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  color: #37917a;
+  background-color: rgba(255,255,255,0.9);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+
+.box3{
+  margin: auto;
+  width: 50%;
+  padding: 10%;
+  color: #37917a;
+  background-color: rgba(255,255,255,0.9);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.footer{
+  margin: auto;
+  margin-top: 20px;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: #37917a;
+  background-color: rgba(255,255,255,0.9);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
