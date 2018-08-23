@@ -1,0 +1,329 @@
+/* ESPRESSO HEADER */
+
+.fixedBar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  color: white;
+  /* border: 3px solid blue; */
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  display: flex;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  height: 15%;
+  background-color: black;
+  font-family: 'Homemade Apple', cursive;
+  font-style: italic;
+  color: rgb(238, 225, 222);
+  letter-spacing: 4pt;
+  font-size: 50pt;
+  /* border: 3px solid yellow; */
+}
+
+/* "EVERYTHING YOU EVER WANTED TO KNOW" */
+
+.fixedBar>p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Courier New', cursive;
+  color: black;
+  line-height: 300%;
+  word-spacing: 15pt;
+  font-weight: bold;
+}
+
+/* GET CAFFEINATED BUTTON */
+
+.getCaf {
+  background-color: rgba(98, 53, 30, 0.5);
+  font-family: 'Homemade Apple', cursive;
+  word-spacing: 15pt;
+  line-height: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 1%;
+  height: 10%;
+  font-size: 90%;
+  margin-bottom: 1%;
+}
+
+.fixedBar>a:hover {
+  color: rgb(185, 207, 195);
+}
+
+/* BEGINNING OF FLEX/GRID */
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: black;
+  /* border: 3px solid red; */
+}
+
+body {
+  background-color: white;
+  background-image: url("css/coffee.gif");
+  background-size: 100%;
+}
+
+h2 {
+  font-size: 18pt;
+  margin: 4%;
+  font-weight: bold;
+}
+
+.grid {
+  font-family: 'Courier New', serif;
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: .5em;
+  grid-row: auto;
+  grid-template-areas: "box1 box2" "box3 box4" "box3 box4" "box4 box4" "box5 box5" "box6 box6" "box7 box8";
+}
+
+.box1 {
+  grid-area: box 1;
+  grid-row: 1/3;
+  background-color: rgb(244, 240, 233);
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.box2 {
+  grid-area: box 2;
+  grid-row: 1/3;
+  background-color: rgb(244, 240, 233);
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.box3 {
+  grid-area: box 3;
+  grid-row: 3/5;
+  background-color: rgb(244, 240, 233);
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.box4 {
+  grid-area: box 4;
+  grid-row: 5/8;
+  background-color: rgb(244, 240, 233);
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.box5 {
+  grid-area: box 5;
+  grid-row: 3/6;
+  background-color: rgb(244, 240, 233);
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.box6 {
+  grid-area: box 6;
+  grid-row: 6/8;
+  background-color: rgb(244, 240, 233);
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+/* FLEXBOX FOR GRID BOXES */
+
+.flexboxradio {
+  display: flex;
+}
+
+.flexboxradio2 {
+  display: flex;
+  flex-direction: column
+}
+
+.flexboxradio2>p {
+  text-align: left;
+}
+
+/* GIVE ME COFFEE LINK */
+
+.link1 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin: 8%;
+  padding: 2%;
+  max-width: 140px;
+}
+
+.link1:hover {
+  color: rgb(185, 207, 195)
+}
+
+/* IMAGES  */
+
+.radio {
+  display: flex;
+  margin: 3%;
+  max-width: 70%;
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.barretts {
+  display: flex;
+  max-height: 300px;
+  margin: 3%;
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.quacks {
+  display: flex;
+  max-height: 100px;
+  margin: 3%;
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.monkeynest {
+  display: flex;
+  margin: 3%;
+  max-height: 400px;
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.greatergoods {
+  display: flex;
+  margin: 3%;
+  max-height: 250px;
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+.bennu {
+  display: flex;
+  margin: 3%;
+  box-shadow: 2px 2px rgb(103, 66, 50);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 10px;
+  background-color: black;
+  min-height: 20%;
+  min-width: 100%;
+}
+
+@media only screen
+  and (min-width: 320px)
+  and (max-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .fixedBar{
+      height: 30%;
+      width: 100%;
+      text-align: center;
+    }
+
+    header{
+      height: 30%;
+      width: 100%;
+      text-align: center;
+
+    }
+    /* .fixedBar>p {
+      text-align: center;
+      font-size: 80%;
+      width: 100%;
+    } */
+
+    h1{
+      height: 30%;
+        display: flex;
+    }
+      .getCaf {
+          display: flex;
+        font-size: 60%;
+      }
+      body {
+        background-size: 100%;
+        background-position: center;
+      }
+      h1 {
+        font-size: 100%;
+        line-height: 90pt margin: 2%;
+        text-align: center;
+      }
+      .grid {
+        display: flex;
+        flex-direction: column;
+        margin: 4%;
+      }
+
+      .box{
+        margin: 2%;
+      }
+    }
+
+
+@media only screen and
+  (min-width: 768px) and
+  (max-width: 1024px) and
+  (-webkit-min-device-pixel-ratio: 1) {
+
+  header{
+  height: 80%;
+}
+.fixedBar>p {
+  text-align: center;
+  font-size: 80%;
+}
+
+h1{
+  height: 39%;
+}
+  .getCaf {
+    font-size: 60%;
+  }
+  body {
+    background-size: 100%;
+    background-position: center;
+    background-position: center;
+  }
+  h1 {
+    font-size: 300%;
+    line-height: 90pt margin: 2%;
+    text-align: center;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin: 4%;
+  }
+  .box{
+    margin: 2%;
+  }
+}
