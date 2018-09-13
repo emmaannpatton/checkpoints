@@ -81,7 +81,7 @@ function fortuneGenerator(){
     secondHalf="find love.";
   }
   else if(secondRand===5){
-    secondHalf="make a drastic change.";
+    secondHalf=" make a drastic change.";
   }
   else if(secondRand===6){
     secondHalf=" get a phone call from a kind stranger. Do what she says.";
