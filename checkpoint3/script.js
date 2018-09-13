@@ -43,7 +43,7 @@ function fortuneGenerator(){
     firstHalf="Though you may not believe it at first, you will";
   }
   else if(firstRand===4){
-    firstHalf="Next week your friend will";
+    firstHalf="Next week your friend will ";
   }
   else if(firstRand===5){
     firstHalf="On Tuesday, you will";
