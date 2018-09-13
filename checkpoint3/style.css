@@ -1,0 +1,84 @@
+nav{
+  position: fixed;
+  background-color: black;
+  color: white;
+  min-width: 100%;
+  min-height: 15%;
+}
+
+nav > h1{
+  text-align: center;
+  padding: 4%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;;
+}
+
+body{
+}
+
+.instructions{
+  padding-right: 4%;
+  padding-left: 4%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15pt;
+  /* border: 3px solid blue; */
+  max-width: 100%;
+}
+
+.flexContainer{
+  display: flex;
+  padding-top: 3%;
+  flex-direction: column;
+  background-color: #ADD8E6;
+  /* border: 3px solid red; */
+}
+
+
+.fortuneCookie{
+  display: flex;
+  justify-content: center;
+  /* border: 3px solid green; */
+  max-width: 100%;
+  max-height: 20%;
+}
+
+.fortuneCookieImg{
+  max-height:270px;
+}
+
+.fortuneCookieImg:hover{
+    transform: rotate(15deg);
+
+}
+
+.fortuneNumber{
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+  font-size: 20pt;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.fortune{
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  color: #FF5733;
+  /* min-h400px;eight: 400px; */
+}
+
+
+footer{
+  padding-top: 5%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  min-height: 100px;
+  font-family: 'Josefin Sans', sans-serif;
+}
